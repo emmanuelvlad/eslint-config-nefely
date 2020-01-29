@@ -11,7 +11,7 @@ module.exports = {
 	],
 
 	rules: {
-
+		"semi": "error",
 		"quotes": [2, "double"],
 		"indent": ["error", "tab"],
 		"no-debugger": process.env.NODE_ENV === "production" ? "error" : "warn",
