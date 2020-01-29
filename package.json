@@ -1,0 +1,25 @@
+{
+ "name": "eslint-config-nefely",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {},
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/EmmanuelVlad/eslint-config-nefely.git"
+ },
+ "keywords": [
+  "eslint",
+  "eslintconfig"
+ ],
+ "peerDependencies": {
+  "eslint": ">= 6",
+  "eslint-plugin-vue": ">= 6"
+ },
+ "author": "Emmanuel VLAD",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/EmmanuelVlad/eslint-config-nefely/issues"
+ },
+ "homepage": "https://github.com/EmmanuelVlad/eslint-config-nefely#readme"
+}
