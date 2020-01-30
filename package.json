@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-nefely",
-	"version": "1.1.2",
+	"version": "1.2.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {},
@@ -18,7 +18,7 @@
 	},
 	"author": "Emmanuel VLAD",
 	"license": "ISC",
-		"bugs": {
+	"bugs": {
 		"url": "https://github.com/EmmanuelVlad/eslint-config-nefely/issues"
 	},
 	"homepage": "https://github.com/EmmanuelVlad/eslint-config-nefely#readme",
