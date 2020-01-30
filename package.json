@@ -10,7 +10,9 @@
 	},
 	"keywords": [
 		"eslint",
-		"eslintconfig"
+		"eslintconfig",
+		"vue",
+		"vuejs"
 	],
 	"peerDependencies": {
 		"eslint": ">= 6",
