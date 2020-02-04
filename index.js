@@ -12,16 +12,26 @@ module.exports = {
 			2,
 			{
 				words: true,
-				nonwords: false
-			}
+				nonwords: false,
+			},
 		],
 		"space-before-function-paren": [
 			"error",
 			{
 				anonymous: "never",
 				named: "never",
-				asyncArrow: "always"
-			}
+				asyncArrow: "always",
+			},
 		],
-	}
+		"comma-dangle": [
+			"error",
+			{
+				"arrays": "always-multiline",
+				"objects": "always-multiline",
+				"imports": "always-multiline",
+				"exports": "always-multiline",
+				"functions": "never",
+			},
+		],
+	},
 };

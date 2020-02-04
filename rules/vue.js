@@ -3,11 +3,11 @@ module.exports = {
 
 	parserOptions: {
 		"sourceType": "module",
-		"ecmaVersion": 2018
+		"ecmaVersion": 2018,
 	},
 	
 	plugins: [
-		"vue"
+		"vue",
 	],
 
 	rules: {
@@ -19,40 +19,40 @@ module.exports = {
 	
 		"vue/component-name-in-template-casing": [2, "PascalCase", {
 			"registeredComponentsOnly": true,
-			"ignores": []
+			"ignores": [],
 		}],
 	
 		"vue/space-unary-ops": [
 			2,
 			{
 				words: true,
-				nonwords: false
-			}
+				nonwords: false,
+			},
 		],
 	
 		"vue/no-use-v-if-with-v-for": ["error", {
-		  	"allowUsingIterationVar": true
+		  	"allowUsingIterationVar": true,
 		}],
 	
 		"vue/html-closing-bracket-newline": ["error", {
 		  "singleline": "never",
-		  "multiline": "never"
+		  "multiline": "never",
 		}],
 	
 		"vue/max-attributes-per-line": ["error", {
 			"singleline": 1,
 			"multiline": {
-				"max": 1
-			}
+				"max": 1,
+			},
 		}],
 	
 		"vue/html-indent": ["error", "tab"],
 	
 		"vue/multiline-html-element-content-newline": ["error", {
 			"ignoreWhenEmpty": false,
-			"allowEmptyLines": true
+			"allowEmptyLines": true,
 		}],
 	
-		"vue/multiline-html-element-content-newline": "error"
-	}
-}
+		"vue/multiline-html-element-content-newline": "error",
+	},
+};
