@@ -5,6 +5,7 @@ module.exports = {
 		"semi": "error",
 		"quotes": [2, "double"],
 		"indent": ["error", "tab"],
+		"no-tabs": 0,
 		"no-debugger": process.env.NODE_ENV === "production" ? "error" : "warn",
 		"no-console": "warn",
 		"no-unused-vars": "warn",
