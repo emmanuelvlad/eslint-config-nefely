@@ -2,7 +2,7 @@ module.exports = {
 	extends: ["./rules/vue"].map(require.resolve),
 
 	rules: {
-		"semi": "error",
+		"semi": ["error", "always"],
 		"quotes": [2, "double"],
 		"indent": ["error", "tab"],
 		"no-tabs": 0,
