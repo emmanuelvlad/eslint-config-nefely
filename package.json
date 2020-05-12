@@ -15,8 +15,8 @@
 		"vuejs"
 	],
 	"peerDependencies": {
-		"eslint": ">= 6",
-		"eslint-plugin-vue": ">= 6.2",
+		"eslint": ">= 7",
+		"eslint-plugin-vue": ">= 7.0.0-alpha.2",
 		"babel-eslint": ">= 10.1"
 	},
 	"author": "Emmanuel VLAD",
@@ -27,8 +27,8 @@
 	"homepage": "https://github.com/EmmanuelVlad/eslint-config-nefely#readme",
 	"devDependencies": {
 		"babel-eslint": "^10.1.0",
-		"eslint": "^6.8.0",
-		"eslint-plugin-vue": "^6.2.1",
+		"eslint": "^7.0.0",
+		"eslint-plugin-vue": "^7.0.0-alpha.2",
 		"vue-eslint-parser": "^7.0.0"
 	},
 	"dependencies": {
