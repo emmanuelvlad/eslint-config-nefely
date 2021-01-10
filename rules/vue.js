@@ -2,8 +2,10 @@ module.exports = {
 	parser: "vue-eslint-parser",
 
 	parserOptions: {
+		"parser": "@babel/eslint-parser",
 		"sourceType": "module",
 		"ecmaVersion": 2018,
+		"requireConfigFile": false,
 	},
 
 	plugins: [
@@ -57,6 +59,12 @@ module.exports = {
 
 		"vue/multiline-html-element-content-newline": "error",
 
-		"vue/padding-line-between-blocks": ["error", "always"],
+		// "vue/padding-line-between-blocks": ["error", "always"],
+
+		"vue/component-tags-order": ["error",
+			{
+				"order": ["template", "script", "style"],
+			},
+		],
 	},
 };

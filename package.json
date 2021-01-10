@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-nefely",
-	"version": "1.4.0",
+	"version": "1.6.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {},
@@ -15,8 +15,9 @@
 		"vuejs"
 	],
 	"peerDependencies": {
-		"eslint": ">= 6",
-		"eslint-plugin-vue": ">= 7"
+		"eslint": ">= 7",
+		"eslint-plugin-vue": ">= 7.0.0-alpha.2",
+		"@babel/eslint-parser": ">= 7"
 	},
 	"author": "Emmanuel VLAD",
 	"license": "ISC",
@@ -25,9 +26,14 @@
 	},
 	"homepage": "https://github.com/EmmanuelVlad/eslint-config-nefely#readme",
 	"devDependencies": {
+		"@babel/core": "^7.12.10",
+		"@babel/eslint-parser": "^7.12.1",
 		"eslint": "^7.17.0",
 		"eslint-config-nefely-base": "^1.0.0",
 		"eslint-plugin-vue": "^7.4.1",
 		"vue-eslint-parser": "^7.3.0"
+	},
+	"dependencies": {
+		"eslint-config-nefely-base": "^1.0.0"
 	}
 }

@@ -5,10 +5,10 @@ An eslint config for Vue.js projects
 
 ## Installation
 
-The required package are `eslint` and `eslint-plugin-vue`.
+The required package are `eslint`, `babel-eslint` and `eslint-plugin-vue`.
 
 ```
-npm install --save-dev eslint eslint-plugin-vue eslint-config-nefely
+npm install --save-dev eslint babel-eslint eslint-plugin-vue eslint-config-nefely
 ```
 
 
