@@ -53,6 +53,10 @@ module.exports = {
 			"allowEmptyLines": true,
 		}],
 
+		"vue/no-v-html": 0,
+
 		"vue/multiline-html-element-content-newline": "error",
+
+		"vue/padding-line-between-blocks": ["error", "always"],
 	},
 };
