@@ -1,3 +1,6 @@
 {
-	"extends": ["./index.js"]
+	"extends": [
+		"nefely-base",
+		"./index.js"
+	]
 }
