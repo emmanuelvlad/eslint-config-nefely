@@ -64,7 +64,7 @@ module.exports = {
 		"vue/this-in-template": ["error", "never"],
 		"import/no-unresolved": 0,
 		"vue/first-attribute-linebreak": ["error", {
-			"singleline": "ignore",
+			"singleline": "beside",
 			"multiline": "below",
 		}],
 	},
